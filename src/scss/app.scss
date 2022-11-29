@@ -25,6 +25,8 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 50%;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 .main {
@@ -38,6 +40,7 @@ html {
 .terms {
   height: 400px;
   padding: 70px;
+  overflow: visible;
 }
 
 .button-container {
